@@ -1,0 +1,600 @@
+{
+  "version": "2.0",
+  "updated": "2026-03-16",
+  "skills": [
+    {
+      "name": "ab-test-tracker",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/ab-test-tracker",
+      "description": "Theo dõi A/B test ads có hệ thống — đăng ký test mới, ghi nhận kết quả hằng ngày, tự động xác định winner khi đủ data, lưu lịch sử để reference sau. Dùng cho Digital Marketing test creative, audience, landing page trên FB/TikTok/Google.",
+      "scripts": false
+    },
+    {
+      "name": "adaptive-language",
+      "status": "active",
+      "path": "skills/adaptive-language",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Adjust explanation depth automatically to user context (technical/basic/newbie). Use when responding to mixed-complexity topics and you need clear, human-friendly Vietnamese without losing core accuracy."
+    },
+    {
+      "name": "ads-anomaly",
+      "type": "improved",
+      "status": "active",
+      "risk": "medium",
+      "path": "skills/ads-anomaly",
+      "description": "Phát hiện bất thường chi tiêu/hiệu suất quảng cáo, cảnh báo Telegram",
+      "scripts": true
+    },
+    {
+      "name": "ads-budget-pacing",
+      "type": "new",
+      "status": "active",
+      "risk": "medium",
+      "path": "skills/ads-budget-pacing",
+      "description": "Giám sát pace chi tiêu quảng cáo, cảnh báo over/under-spend",
+      "scripts": true
+    },
+    {
+      "name": "ads-data-contract",
+      "type": "new",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/ads-data-contract",
+      "description": "Cross-platform field mapping + data validation contract",
+      "scripts": true
+    },
+    {
+      "name": "ads-insight-auto",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/ads-insight-auto",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "analyze-mess-ads",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/analyze-mess-ads",
+      "description": "Analyze Messenger ads content performance by group (doctor/UGC/promo) using ad metrics + lead status funnel. Use when asked to compare messaging efficiency, CPL quality, and conversion quality by creative theme.",
+      "scripts": false
+    },
+    {
+      "name": "antrua",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/antrua",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "aot-executor",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/aot-executor",
+      "description": ">-",
+      "scripts": false
+    },
+    {
+      "name": "aot-planner",
+      "status": "active",
+      "path": "skills/aot-planner",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": ">-"
+    },
+    {
+      "name": "apps-script-deployer-lite",
+      "type": "new",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/apps-script-deployer-lite",
+      "description": "Scaffold + deploy Google Apps Script từ templates",
+      "scripts": true
+    },
+    {
+      "name": "auto-save",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/auto-save",
+      "description": "Auto-save and handover session context on leave/decision/task-complete signals. Use when continuity is required across sessions to avoid losing decisions, pending tasks, and progress.",
+      "scripts": false
+    },
+    {
+      "name": "brand-analyze",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/brand-analyze",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "clarity-gate-lite",
+      "status": "active",
+      "path": "skills/clarity-gate-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Evidence-first completion gate for important outputs. Use before marking tasks done (especially publish/report/code) to verify acceptance criteria, proof, risks, and next actions."
+    },
+    {
+      "name": "content-factory",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/content-factory",
+      "description": "Orchestrated SEO content pipeline with state tracking, artifact validation, and automated review gates.",
+      "scripts": true
+    },
+    {
+      "name": "context-help",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/context-help",
+      "description": "Provide context-aware help based on current session state (no-task/working/blocked/completed). Use when user asks /help, feels stuck, or asks what to do next within active workflow.",
+      "scripts": false
+    },
+    {
+      "name": "context-warning",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/context-warning",
+      "description": "Estimate context load and trigger warnings/compression at thresholds (60/70/80/90%). Use in long sessions to avoid sudden context overflow and preserve key decisions.",
+      "scripts": false
+    },
+    {
+      "name": "copywriting",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/copywriting",
+      "description": ">-",
+      "scripts": false
+    },
+    {
+      "name": "creative-fatigue-detector",
+      "type": "new",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/creative-fatigue-detector",
+      "description": "Phát hiện creative mỏi qua CTR/CPC/frequency trends",
+      "scripts": true
+    },
+    {
+      "name": "credentials-health-lite",
+      "type": "new",
+      "status": "active",
+      "risk": "medium",
+      "path": "skills/credentials-health-lite",
+      "description": "Check hạn token/credentials, nhắc trước khi hết hạn",
+      "scripts": true
+    },
+    {
+      "name": "creimage",
+      "status": "active",
+      "path": "skills/creimage",
+      "type": "standard",
+      "risk": "low",
+      "scripts": true,
+      "description": "Tạo ảnh bằng model gemini-3-pro-image qua API minai93 (chat/completions hoặc responses), lưu file PNG/JPG vào workspace và trả đường dẫn ảnh. Use when user asks tạo ảnh từ prompt, test model gemini image, hoặc cần sinh nhiều biến thể ảnh từ mô tả tiếng Việt/Anh."
+    },
+    {
+      "name": "daytona-sandbox",
+      "status": "active",
+      "path": "skills/daytona-sandbox",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": ">-"
+    },
+    {
+      "name": "debate-review",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/debate-review",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "decision-extractor",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/decision-extractor",
+      "description": "Detect explicit/implicit user decisions and log them into session memory structure. Use when user confirms options, approves plans, or finalizes direction to keep decision history reliable.",
+      "scripts": false
+    },
+    {
+      "name": "drive-media",
+      "status": "active",
+      "path": "skills/drive-media",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": ">-"
+    },
+    {
+      "name": "error-translator",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/error-translator",
+      "description": "Translate technical errors into plain Vietnamese with direct fixes and alternatives. Use when logs/commands fail and the user needs quick, non-jargon troubleshooting guidance.",
+      "scripts": false
+    },
+    {
+      "name": "fb-page-comment",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/fb-page-comment",
+      "description": "Comment bài FB Page DND Sài Gòn theo template có sẵn (text + ảnh từ Google Drive). Use when user sends a FB post URL and asks to comment on it.",
+      "scripts": true
+    },
+    {
+      "name": "fb-page-seeding-comment",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/fb-page-seeding-comment",
+      "description": "Seeding comment Facebook bằng nhiều Page phụ theo vòng xoay nội dung (mỗi page chỉ comment 1 lần cho mỗi bài). Dùng khi anh nói \"seeding bài link\", \"seeding post\", hoặc cần comment đa page vào 1 link bài viết Facebook. Khác flow cũ `fb-page-comment` (trigger: \"comment ads link\").",
+      "scripts": true
+    },
+    {
+      "name": "guardrail-hooks-lite",
+      "status": "active",
+      "path": "skills/guardrail-hooks-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Lightweight guardrails for risky actions in OpenClaw sessions. Use when a task may touch sensitive files, run broad/destructive commands, or pull untrusted external content plus execute actions. Enforce pause-and-confirm with concise safety checks."
+    },
+    {
+      "name": "hands-framework",
+      "status": "active",
+      "path": "skills/hands-framework",
+      "type": "standard",
+      "risk": "low",
+      "scripts": true,
+      "description": "Core framework cho Hands Pattern (lightweight stateful agent pattern). Use when skill khác cần import HandState, HandLogger, send_telegram, run_hand để chuẩn hóa flow quyết định và logging."
+    },
+    {
+      "name": "kpi-tracker",
+      "type": "improved",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/kpi-tracker",
+      "description": "Báo cáo KPI hàng ngày với forecast và data freshness",
+      "scripts": true
+    },
+    {
+      "name": "lazy-context",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/lazy-context",
+      "description": "Three-tier context loading strategy (critical/important/deep) for token efficiency. Use when handling long-running projects and you must balance recall quality with context cost.",
+      "scripts": false
+    },
+    {
+      "name": "lead-monitor",
+      "type": "improved",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/lead-monitor",
+      "description": "Theo dõi lead mới từ Supabase, dedup + alert Telegram",
+      "scripts": true
+    },
+    {
+      "name": "linkedin",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/linkedin",
+      "description": "Tạo content LinkedIn cho Minh đại ca (ghost writer) + đăng bài ngay hoặc schedule. Trigger khi anh nói \"viết bài LinkedIn\", \"đăng LinkedIn\", \"lên content LinkedIn\", \"/linkedin\". Persona: Senior Digital Marketing Trần Quang Minh, 8+ năm kinh nghiệp, chuyên performance ads. Xem references/persona.md để biết đầy đủ tone/hashtag/format.",
+      "scripts": true
+    },
+    {
+      "name": "market-data",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/market-data",
+      "description": "Validate market data responses (giá vàng, chứng khoán, tỷ giá, bitcoin...) với timestamp + source enforcement. Trigger khi anh hỏi về giá cả thị trường.",
+      "scripts": true
+    },
+    {
+      "name": "next",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/next",
+      "description": "Recommend the most relevant next step from current session state, pending items, and blockers. Use when user asks /next or needs immediate direction.",
+      "scripts": false
+    },
+    {
+      "name": "notify-on-complete-lite",
+      "status": "active",
+      "path": "skills/notify-on-complete-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Lightweight completion notification pattern for long-running tasks and sub-agents. Use when execution is asynchronous or takes long enough that user should be alerted on completion with concise summary."
+    },
+    {
+      "name": "openclaw-backup",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/openclaw-backup",
+      "description": "Backup toàn bộ workspace + config OpenClaw (encrypted AES-256) lên Google Drive. Use when: cần backup thủ công, hoặc cron tự động chạy hàng tuần.",
+      "scripts": false
+    },
+    {
+      "name": "parallel-file-ownership-lite",
+      "status": "active",
+      "path": "skills/parallel-file-ownership-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Parallel execution protocol with exclusive file ownership per phase. Use when multiple sub-agents run in parallel to avoid file conflicts and merge chaos."
+    },
+    {
+      "name": "persistent-memory",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/persistent-memory",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "plan-validation-lite",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/plan-validation-lite",
+      "description": "Short validation interview before executing complex plans. Use when task is high-impact, has unclear assumptions, or involves multiple steps; ask 3-6 targeted questions on assumptions, risks, tradeoffs, and scope.",
+      "scripts": false
+    },
+    {
+      "name": "plans-kanban-lite",
+      "status": "active",
+      "path": "skills/plans-kanban-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Lightweight kanban planning for multi-step tasks. Use when a task has more than 3 steps, spans multiple sessions, or needs explicit status tracking (todo/in-progress/done/blocked) with clear next action."
+    },
+    {
+      "name": "programmatic-seo-lite",
+      "status": "active",
+      "path": "skills/programmatic-seo-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Programmatic SEO mini-framework for topic clusters, internal links, and schema checklist. Use when planning or reviewing multiple SEO articles/pages at scale."
+    },
+    {
+      "name": "progress-tracker",
+      "status": "active",
+      "path": "skills/progress-tracker",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Track multi-step project progress with phases, completed counts, and concise status views. Use when tasks span many steps/sessions and progress visibility is required."
+    },
+    {
+      "name": "prompt-injection-guard",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/prompt-injection-guard",
+      "description": ">-",
+      "scripts": false
+    },
+    {
+      "name": "rag-kit",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/rag-kit",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "react-loop",
+      "status": "active",
+      "path": "skills/react-loop",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": ">-"
+    },
+    {
+      "name": "reader-adapter",
+      "status": "active",
+      "path": "skills/reader-adapter",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": ">-"
+    },
+    {
+      "name": "recap",
+      "status": "active",
+      "path": "skills/recap",
+      "type": "standard",
+      "risk": "low",
+      "scripts": true,
+      "description": "Recover working context at 3 detail levels (/recap, /recap full, /recap deep) or by topic. Use when resuming work, reorienting after interruption, or summarizing current status."
+    },
+    {
+      "name": "report-ads",
+      "type": "improved",
+      "status": "active",
+      "risk": "high",
+      "path": "skills/report-ads",
+      "description": "Báo cáo ads đa nền tảng với QA gate, cross-validation, fallback",
+      "scripts": true
+    },
+    {
+      "name": "search-kit",
+      "status": "active",
+      "path": "skills/search-kit",
+      "type": "standard",
+      "risk": "low",
+      "scripts": true,
+      "description": "Multi-engine web search router for research tasks. Use when cần tra cứu thông tin web, research SEO, phân tích đối thủ, fact-check, hoặc khi user nói \"search\", \"nghiên cứu\", \"tìm nguồn\". Ưu tiên Perplexity (Sonar/Sonar Pro với budget $5/tháng), tự fallback sang Tavily → SerpAPI → Google CSE → SearXNG khi hết budget hoặc lỗi."
+    },
+    {
+      "name": "semantic-memory-search",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/semantic-memory-search",
+      "description": ">-",
+      "scripts": false
+    },
+    {
+      "name": "seo-article",
+      "status": "active",
+      "path": "skills/seo-article",
+      "type": "standard",
+      "risk": "low",
+      "scripts": true,
+      "description": ">-"
+    },
+    {
+      "name": "seo-outline",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/seo-outline",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "session-metrics",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/session-metrics",
+      "description": ">-",
+      "scripts": false
+    },
+    {
+      "name": "skill-catalog-audit-lite",
+      "status": "active",
+      "path": "skills/skill-catalog-audit-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Audit and classify local skills automatically. Use when reviewing skill coverage, finding overlaps/gaps, or deciding which skills to improve first."
+    },
+    {
+      "name": "smart-memory",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/smart-memory",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "snapshot-ttl",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/snapshot-ttl",
+      "description": "Manage session snapshots and TTL cleanup to keep recoverability without workspace clutter. Use for periodic state capture and safe pruning of stale snapshots.",
+      "scripts": false
+    },
+    {
+      "name": "suggestion-reply-dnd",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/suggestion-reply-dnd",
+      "description": "Gợi ý cách trả lời tin nhắn inbox Messenger Page DND dựa trên lịch sử hội thoại thực tế. Anh Minh hỏi \"khách hỏi X thì trả lời sao?\" → em tìm trong inbox những cuộc hội thoại tương tự, tổng hợp cách admin đã từng trả lời, đề xuất câu trả lời phù hợp. Lâu lâu anh cần cào thêm inbox mới → dùng lệnh update. Trigger: \"trả lời sao nếu...\", \"khách hỏi...\", \"/suggestion-reply\", \"update inbox\".",
+      "scripts": false
+    },
+    {
+      "name": "sumvid",
+      "status": "active",
+      "path": "skills/sumvid",
+      "type": "standard",
+      "risk": "low",
+      "scripts": true,
+      "description": ">-"
+    },
+    {
+      "name": "test-orchestrator-lite",
+      "status": "active",
+      "path": "skills/test-orchestrator-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Practical test gate for code or automation changes. Use when modifying scripts/config/workflows to ensure compile/lint/smoke checks run before marking task done, with a concise pass/fail summary."
+    },
+    {
+      "name": "thumb-prj-thanhhung",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/thumb-prj-thanhhung",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "topic-performance",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/topic-performance",
+      "description": "Mỗi sáng 8h15 ICT, gửi Telegram báo cáo top creative topics Facebook Ads hiệu quả nhất trong 3 ngày qua — dựa trên Mess (inbox) và Lead — để biết nên scale topic nào. Trigger: cron tự động hoặc manual \"xem topic performance\", \"topic hôm nay\".",
+      "scripts": true
+    },
+    {
+      "name": "weekly-review-auto",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/weekly-review-auto",
+      "description": ">-",
+      "scripts": true
+    },
+    {
+      "name": "workflow-test-checklist-lite",
+      "status": "active",
+      "path": "skills/workflow-test-checklist-lite",
+      "type": "standard",
+      "risk": "low",
+      "scripts": false,
+      "description": "Step-by-step workflow validation with Pass/Fail/Skip checkpoints. Use when testing end-to-end business workflows (content, ads, email, reporting) before rollout."
+    },
+    {
+      "name": "yt-content",
+      "type": "standard",
+      "status": "active",
+      "risk": "low",
+      "path": "skills/yt-content",
+      "description": ">-",
+      "scripts": true
+    }
+  ]
+}
